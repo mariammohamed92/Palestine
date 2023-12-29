@@ -1,0 +1,63 @@
+
+.navbar{
+background-color: rgba(250, 248, 248, 0.5);
+}
+.home{
+    background-image: url(../images/Screenshot\ \(92\).png);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+   
+}
+.heading{
+    padding-top: 20%;
+}
+.heading img{
+    width: 100px;
+    font-family: 'Open Sans';
+}
+h1::after{
+    content: '';
+    text-align: center;
+    animation-name: mariam;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: white;
+}
+@keyframes mariam {
+    4%{content: '|';}
+    7%{content: 'F|';}
+    10%{content: 'Fr|';}
+    14%{content: 'Fre|';}
+    17%{content: 'Free|';}
+    20%{content: 'Free P|';}
+    24%{content: 'Free Pa|';}
+    27%{content: 'Free Pal|';}
+    30%{content: 'Free Pale|';}
+    34%{content: 'Free Pales|';}
+    37%{content: 'Free Palest|';}
+    40%{content: 'Free Palesti|';}
+    44%{content: 'Free Palestin|';}
+    47%{content: 'Free Palestine|';}
+    50%{content: 'Free Palestin|';}
+    54%{content: 'Free Palesti|';}
+    57%{content: 'Free Palest|';}
+    60%{content: 'Free Pales|';}
+    64%{content: 'Free Pale|';}    
+    67%{content: 'Free Pal|';}
+    70%{content: 'Free Pa|';}
+    74%{content: 'Free P|';}
+     77%{content: 'Fre|';}
+    80%{content: 'Fr|';}
+    84%{content: 'F|';}
+    0%{content: '|';}
+
+
+}

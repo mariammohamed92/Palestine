@@ -1,0 +1,78 @@
+html{
+    direction: rtl;
+}
+.navbar{
+background-color: rgba(250, 248, 248, 0.5);
+}
+.home{
+    background-image: url(../images/Screenshot\ \(92\).png);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+   
+}
+.heading{
+    padding-top: 20%;
+}
+.heading img{
+    width: 100px;
+    font-family: 'Open Sans';
+}
+h1::after{
+    content: '';
+    text-align: center;
+    animation-name: mariam;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: white;
+}
+
+@keyframes mariam {
+    5.8%{content: '|';}
+    11.7%{content: 'فِ|';}
+    17.5%{content: 'فِلَ|';}
+    23.3%{content: 'فِلَسْ|';}
+    29.1%{content: 'فِلَسْطِ|';}
+    34.9%{content: 'فِلَسْطِي|';}
+    40.7%{content: 'فِلَسْطِين|';}
+    46.5%{content: ' فِلَسْطِين حُ|';}
+    52.3%{content: 'فِلَسْطِين حُرّ|';}
+    58.1%{content: 'فِلَسْطِين حُرّة|';}
+    63.9%{content: 'فِلَسْطِين حُرّ|';}
+    69.7%{content: 'فِلَسْطِين حُ|';}
+    75.5%{content: 'فِلَسْطِين|';}
+    81.3%{content: 'فِلَسْطِي|';}
+    87.1%{content: 'فِلَسْطِ|';}
+    92.9%{content: 'فِلَسْ|';}
+    98.7%{content: 'فِلَ|';}
+    100%{content: 'فِ|';}
+    0%{content: '|';}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
